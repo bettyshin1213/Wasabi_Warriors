@@ -42,9 +42,11 @@
 
 스시 이미지에 대해 Multi-Class Classification 및 Object Detection을 수행하는 프로젝트입니다.
 
-<a href="https://github.com/hyesungKomet/Wasabi_Warriors">
-    <img src="images/detection_preview.jpg" alt="Logo" width="150" height="150">
+<div style="text-align: center;">
+  <a href="https://github.com/hyesungKomet/Wasabi_Warriors">
+    <img src="images/detection_preview.jpg" alt="Logo" width="250" height="250">
   </a>
+</div>
 
 ### Dataset
 - Object Detection
@@ -86,9 +88,9 @@
    git clone https://github.com/hyesungKomet/Wasabi_Warriors.git
    ```
 2. Setup (and activate) your environment
-  ```sh
-  pip install -r requirements.txt
-  ```
+    ```sh
+    pip install -r requirements.txt
+    ```
 
 <!-- USAGE EXAMPLES -->
 ## Inference
