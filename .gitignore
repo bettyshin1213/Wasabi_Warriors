@@ -1,0 +1,10 @@
+sushi_crop_data
+sushi_crop_data_update
+sushi-4.v6i.yolov5pytorch
+yolov5/data/images
+models/sushiupdate_classifier_vgg16_10.pth
+models/sushiupdate_classifier_alexnet_10.pth
+models/sushi_classifier_resnet50_10.pth
+*.pth
+*.pt
+*.h5
