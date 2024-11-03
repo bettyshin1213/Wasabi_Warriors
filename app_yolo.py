@@ -4,9 +4,9 @@ import numpy as np
 import gradio as gr
 
 # YOLOv5 모델 로드
-# model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
+model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='models/yolov5/yolov5m_adamw_cossine_91.pt', force_reload=True)
+#model = torch.hub.load('ultralytics/yolov5', 'custom', path='models/yolov5/yolov5m_adamw_cossine_91.pt', force_reload=True)
 model.eval()
 
 # 추론 함수
